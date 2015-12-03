@@ -1,0 +1,5 @@
+/show/description "Install Ouimeaux"
+/system/install python-setuptools 
+/system/install python-dev
+pip install ouimeaux
+
