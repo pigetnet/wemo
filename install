@@ -1,5 +1,7 @@
-/show/description "Install Ouimeaux"
+/show/description "Install Ouimeaux (python)"
+/show/listecho "Install python dependencies" $OK
 /system/install python-setuptools 
 /system/install python-dev
+/show/listecho "Install ouimeaux library" $OK
 pip install ouimeaux
 
